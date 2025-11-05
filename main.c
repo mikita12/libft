@@ -3,9 +3,9 @@
 
 int main(){
 	
-	int c='#';
-	if(ft_isalpha(c) != 0) printf("%s", "Podales znak z alfabetu \n");
-		else printf("%s", "Podanego znaku nie ma w alfabecie \n");
+	int c='0';
+	if( ft_isdigit(c) != 0) printf("%s", "Podales liczbe \n");
+		else printf("%s", "nie podales liczby \n");
 
 	return 0;
 	
