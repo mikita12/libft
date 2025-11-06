@@ -4,10 +4,9 @@
 
 int ft_strlen(const char *s){
 	int size=0;
-	while(size != 4){
-		printf("%d\n", *s);
+	while(*s){
 		size++;
-		*s++;
-	}
+		s++;
+	}	
 	return size;
 }
