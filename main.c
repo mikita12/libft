@@ -1,12 +1,12 @@
 #include <stdio.h>
+#include <string.h>
 #include "libft.h"
 
 int main(){
 	
-	int c='0';
-	if( ft_isdigit(c) != 0) printf("%s", "Podales liczbe \n");
-		else printf("%s", "nie podales liczby \n");
-
+	const char *s = "chuj";
+	printf("%d\n", ft_strlen(s));
+	
 	return 0;
 	
 }
