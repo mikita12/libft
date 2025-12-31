@@ -3,11 +3,11 @@
 void *ft_memcpy(void *dest, const void *src, size_t n){
     const unsigned char * content = src;
     unsigned char * dContent = dest; 
-    while(n--q){
+    while(n--){
         *dContent = *content;
         content++;
         dContent++;
     }
     
-    return *dest;
+    return dest;
 } 
