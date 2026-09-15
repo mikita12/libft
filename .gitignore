@@ -4,3 +4,8 @@ a.out
 *.a
 program
 /build
+*.cmake
+CMakeCache.txt
+CMakeFiles
+.cache/
+.vscode/

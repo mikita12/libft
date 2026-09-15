@@ -1,9 +1,10 @@
 #include <string.h>
+#include "libft.h"
 
 size_t ft_strlcat(char *dst, const char *src, size_t dstsize){
 
-    size_t dsl = strlen(dst);
-    size_t ret = dsl + strlen(src);
+    size_t dsl = ft_strlen(dst);
+    size_t ret = dsl + ft_strlen(src);
     if(dstsize <= dsl) return ret;
     
     size_t i = 0;

@@ -8,4 +8,6 @@ void *ft_memset(void *s, int c, size_t n){
         str++;
         n--;
     }
+
+    return s;
 }
