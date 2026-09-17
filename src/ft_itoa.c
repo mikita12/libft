@@ -4,6 +4,11 @@
 static size_t count_weight(size_t n){
 
     size_t i = 0;
+    if(n==0){
+        i++;
+        return i;
+    } 
+        
     while(n>0){
         n/=10;
         i++;
@@ -13,7 +18,6 @@ static size_t count_weight(size_t n){
 } 
 
 char *ft_itoa(int n){
-
     size_t n_cp = n;
     size_t offset = 1;
 

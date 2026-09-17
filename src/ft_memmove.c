@@ -6,6 +6,7 @@ void *ft_memmove(void *dest, const void *src, size_t n) {
   const unsigned char *content = src;
   unsigned char *dContent = dest;
   unsigned char *buf = malloc(sizeof(char) * n);
+  if(!buf) return NULL;
   unsigned char *buf_ptr = buf;
   size_t i = 0;
   while (i < n) {

@@ -1,9 +1,9 @@
-#include <string.h>
+#include "libft.h"
 
 size_t ft_strlcpy(char *destination, const char *source, size_t size){
 
     size_t i=0;
-    size_t ret = strlen(source);
+    size_t ret = ft_strlen(source);
 
     if(size == 0) return ret;
 
